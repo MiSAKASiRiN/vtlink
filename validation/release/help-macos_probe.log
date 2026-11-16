@@ -1,0 +1,12 @@
+usage: macos_probe.py [-h] [--seconds SECONDS] [--output OUTPUT]
+                      [--no-keyframe]
+
+Bounded C5 USB + Protocol probe. Sends only keyframe request/cancel. Run with
+python tools/macos_probe.py --seconds 30. Never resets/reconfigures the device
+or detaches a kernel driver.
+
+options:
+  -h, --help         show this help message and exit
+  --seconds SECONDS
+  --output OUTPUT
+  --no-keyframe      Receive only; zero serial payload writes

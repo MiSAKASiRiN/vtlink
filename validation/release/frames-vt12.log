@@ -1,0 +1,13 @@
+{
+  "transmitted": false,
+  "family": "vt12",
+  "note": "custom_example contains offline test bytes; application payload semantics are defined by the integrator",
+  "packets": {
+    "query": "55 0d 04 33 8a 0e 00 00 40 09 61 eb 31",
+    "channel": "55 13 04 03 8a 0e 00 00 40 09 0d 0f 1e 0a 11 1e 0a 86 90",
+    "custom_example": "55 3f 04 8f 8a 77 00 00 40 09 63 aa 2b 00 a6 02 a5 1e 00 00 7d 02 03 00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d c2 80 e8 03 01 00 ef 0c 6e 79",
+    "keyboard_neutral": "55 2d 04 f2 8a 77 00 00 40 09 63 a5 19 00 08 02 a5 0c 00 00 78 04 03 00 00 00 00 00 00 00 00 00 00 00 00 b8 94 00 00 00 00 82 0c f4 f4",
+    "transmitter_uart_set": "a5 01 00 00 68 01 0f 03 99 9e",
+    "transmitter_uart_query": "a5 00 00 0a bd 02 0f 66 04"
+  }
+}

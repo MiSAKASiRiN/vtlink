@@ -1,0 +1,14 @@
+usage: serial_monitor.py [-h] --port PORT --family {vt12,vt13}
+                         [--seconds SECONDS] [--query] [--keyframe]
+
+Monitor an explicitly selected protocol CDC; optional VT12 status query. No
+robot business writes. --keyframe sends VT13 request/cancel once; start USB
+capture first. One process must own the protocol serial port.
+
+options:
+  -h, --help            show this help message and exit
+  --port PORT
+  --family {vt12,vt13}
+  --seconds SECONDS
+  --query
+  --keyframe

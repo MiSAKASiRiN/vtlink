@@ -1,0 +1,17 @@
+usage: vt12_video.py [-h] [--bind BIND] [--port PORT] [--peer PEER]
+                     [--header-bytes {0,8}] [--headless] [--seconds SECONDS]
+                     [--output OUTPUT] [--record] [--snapshot SNAPSHOT]
+
+VT12 H.264 preview, raw UDP recording, and decoder statistics.
+
+options:
+  -h, --help            show this help message and exit
+  --bind BIND
+  --port PORT
+  --peer PEER
+  --header-bytes {0,8}
+  --headless
+  --seconds SECONDS
+  --output OUTPUT
+  --record
+  --snapshot SNAPSHOT

@@ -1,0 +1,17 @@
+test_aa_type2_fixed_vector (test_sdk.ProtocolTests.test_aa_type2_fixed_vector) ... ok
+test_annexb_boundaries_split_across_reads (test_sdk.ProtocolTests.test_annexb_boundaries_split_across_reads) ... ok
+test_channel_and_query_vectors (test_sdk.ProtocolTests.test_channel_and_query_vectors) ... ok
+test_family_and_command_separation (test_sdk.ProtocolTests.test_family_and_command_separation) ... ok
+test_keyboard_has_full_trailer (test_sdk.ProtocolTests.test_keyboard_has_full_trailer) ... ok
+test_keyframe_and_keyboard_reference (test_sdk.ProtocolTests.test_keyframe_and_keyboard_reference) ... ok
+test_payload_limits (test_sdk.ProtocolTests.test_payload_limits) ... ok
+test_stream_noise_crc_and_fragmentation (test_sdk.ProtocolTests.test_stream_noise_crc_and_fragmentation) ... ok
+test_transmitter_manual_vectors (test_sdk.ProtocolTests.test_transmitter_manual_vectors) ... ok
+test_uplink_fragmented_a5_and_bad_transport (test_sdk.ProtocolTests.test_uplink_fragmented_a5_and_bad_transport) ... ok
+test_vt12_hardware_capture (test_sdk.ProtocolTests.test_vt12_hardware_capture) ... ok
+test_vt13_independent_current_vector (test_sdk.ProtocolTests.test_vt13_independent_current_vector) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.001s
+
+OK

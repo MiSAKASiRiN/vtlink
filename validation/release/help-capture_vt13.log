@@ -1,0 +1,15 @@
+usage: capture_vt13.py [-h] [--seconds SECONDS] [--output OUTPUT]
+                       [--serial-number SERIAL_NUMBER] [--list]
+
+Read DJI 2ca3:1020 interface 0 / bulk IN 0x81 as raw HEVC. Intended for
+Linux/macOS with PyUSB and a system libusb-1.0 installation. Claims the video
+interface and saves incoming bytes to a file or stdout. Keyframe control is
+provided separately by examples/serial_monitor.py.
+
+options:
+  -h, --help            show this help message and exit
+  --seconds SECONDS     Capture duration; 0 means until Ctrl-C (default: 10).
+  --output OUTPUT       Output file; use - for binary stdout.
+  --serial-number SERIAL_NUMBER
+                        Select one unit when several are connected.
+  --list                Print descriptors only.

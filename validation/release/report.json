@@ -1,0 +1,146 @@
+{
+  "hardware_access": false,
+  "passed": true,
+  "checks": [
+    {
+      "name": "sdk",
+      "command": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "passed": true,
+      "log": "sdk.log"
+    },
+    {
+      "name": "h264",
+      "command": [
+        "tools/decode_h264_sample.py",
+        "samples/vt12-startup.udpbin",
+        "--output",
+        "validation/release/h264"
+      ],
+      "returncode": 0,
+      "passed": true,
+      "log": "h264.log"
+    },
+    {
+      "name": "hevc",
+      "command": [
+        "tools/decode_hevc_sample.py",
+        "samples/vt13-video.h265",
+        "--snapshot",
+        "validation/release/hevc.png"
+      ],
+      "returncode": 0,
+      "passed": true,
+      "log": "hevc.log"
+    },
+    {
+      "name": "frames-vt12",
+      "command": [
+        "-m",
+        "vtlink",
+        "frames",
+        "--family",
+        "vt12"
+      ],
+      "returncode": 0,
+      "passed": true,
+      "log": "frames-vt12.log"
+    },
+    {
+      "name": "frames-vt13",
+      "command": [
+        "-m",
+        "vtlink",
+        "frames",
+        "--family",
+        "vt13"
+      ],
+      "returncode": 0,
+      "passed": true,
+      "log": "frames-vt13.log"
+    },
+    {
+      "name": "example",
+      "command": [
+        "examples/offline_packets.py"
+      ],
+      "returncode": 0,
+      "passed": true,
+      "log": "example.log"
+    },
+    {
+      "name": "help-vt12_video",
+      "command": [
+        "tools/vt12_video.py",
+        "--help"
+      ],
+      "returncode": 0,
+      "passed": true,
+      "log": "help-vt12_video.log"
+    },
+    {
+      "name": "help-vt12_macos_rndis",
+      "command": [
+        "tools/vt12_macos_rndis.py",
+        "--help"
+      ],
+      "returncode": 0,
+      "passed": true,
+      "log": "help-vt12_macos_rndis.log"
+    },
+    {
+      "name": "help-macos_preview",
+      "command": [
+        "tools/macos_preview.py",
+        "--help"
+      ],
+      "returncode": 0,
+      "passed": true,
+      "log": "help-macos_preview.log"
+    },
+    {
+      "name": "help-macos_probe",
+      "command": [
+        "tools/macos_probe.py",
+        "--help"
+      ],
+      "returncode": 0,
+      "passed": true,
+      "log": "help-macos_probe.log"
+    },
+    {
+      "name": "help-capture_vt13",
+      "command": [
+        "tools/capture_vt13.py",
+        "--help"
+      ],
+      "returncode": 0,
+      "passed": true,
+      "log": "help-capture_vt13.log"
+    },
+    {
+      "name": "help-serial_monitor",
+      "command": [
+        "examples/serial_monitor.py",
+        "--help"
+      ],
+      "returncode": 0,
+      "passed": true,
+      "log": "help-serial_monitor.log"
+    },
+    {
+      "name": "documentation-links",
+      "passed": true,
+      "broken": []
+    }
+  ],
+  "environment": "environment.json",
+  "scope": "Offline software and saved sample validation only; no new hardware validation"
+}

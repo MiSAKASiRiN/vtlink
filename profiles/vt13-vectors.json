@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "usage": "offline encoding and parser fixtures; examples are not automatically transmitted",
+  "keyframe": {
+    "request_hex": "55 17 04 38 aa 0e 00 00 40 01 01 00 00 00 00 00 24 00 00 00 24 8f 06",
+    "cancel_hex": "55 17 04 38 aa 0e 00 00 40 01 01 00 00 00 00 00 04 00 00 00 04 1c 47"
+  },
+  "keyboard": [
+    {
+      "name": "neutral",
+      "state": {
+        "mouse_x": 0,
+        "mouse_y": 0,
+        "mouse_z": 0,
+        "left": 0,
+        "right": 0,
+        "middle": 0,
+        "keys": 0
+      },
+      "payload_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "packets_hex": [
+        "55 1a 04 b1 aa 06 00 00 40 3f 11 00 00 00 00 00 00 00 00 00 00 00 00 00 66 1e",
+        "55 1a 04 b1 aa 0e 00 00 40 3f 11 00 00 00 00 00 00 00 00 00 00 00 00 00 6a a4"
+      ]
+    },
+    {
+      "name": "layout_example",
+      "state": {
+        "mouse_x": -123,
+        "mouse_y": 456,
+        "mouse_z": -7,
+        "left": 1,
+        "right": 0,
+        "middle": 1,
+        "keys": 32769
+      },
+      "payload_hex": "00 85 ff c8 01 f9 ff 11 01 00 00 80 00",
+      "packets_hex": [
+        "55 1a 04 b1 aa 06 00 00 40 3f 11 00 85 ff c8 01 f9 ff 11 01 00 00 80 00 6f 97",
+        "55 1a 04 b1 aa 0e 00 00 40 3f 11 00 85 ff c8 01 f9 ff 11 01 00 00 80 00 63 2d"
+      ]
+    }
+  ]
+}

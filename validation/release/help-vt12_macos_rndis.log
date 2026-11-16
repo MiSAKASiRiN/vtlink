@@ -1,0 +1,16 @@
+usage: vt12_macos_rndis.py [-h] [--seconds SECONDS] [--preview] [--record]
+                           [--http-port HTTP_PORT] [--output OUTPUT]
+
+VT12 userspace RNDIS video receiver; no kernel/network configuration changes.
+Claims only the unbound RNDIS interfaces 0/1. Sends RNDIS initialization,
+packet-filter control and ARP for 192.168.42.105; no robot/UDP control data.
+Reuses the development kit's UDP recording, H.264 decoder and preview. RNDIS
+wire structures: Linux include/linux/usb/rndis_host.h.
+
+options:
+  -h, --help            show this help message and exit
+  --seconds SECONDS
+  --preview
+  --record
+  --http-port HTTP_PORT
+  --output OUTPUT

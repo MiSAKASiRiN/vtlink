@@ -1,0 +1,282 @@
+{
+  "package": "VT_Link_Development_Kit",
+  "version": "1.0.0",
+  "date": "2026-11-17",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 76,
+      "sha256": "96511edb0a3d8ab3957df552efd28642c53e090ea26f033a9ac77a8a025545ee"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 67,
+      "sha256": "527aea5b02441d87929ddf9e7f7aef57458cb4ab2a1624dd7abd52d546d3695b"
+    },
+    {
+      "path": "COMPONENTS.md",
+      "bytes": 1141,
+      "sha256": "74341261430159767936541c3c8251cf5d89fdffb0ab3d70f774e905fa63742e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5896,
+      "sha256": "7663f6836bb8212630f40cd8224623314edba3107c576040eb5b3d3aaa55a787"
+    },
+    {
+      "path": "docs/01_快速接入.md",
+      "bytes": 3588,
+      "sha256": "7b194fee0cb96c690e6162aef81012e2bc8962075eb868ea48f1e4ca6ac44b14"
+    },
+    {
+      "path": "docs/02_硬件接口.md",
+      "bytes": 2996,
+      "sha256": "37949c869db06fe5c6b7ee66d2bd59aa1bcb9127e14420421893fa04752b145a"
+    },
+    {
+      "path": "docs/03_视频接收.md",
+      "bytes": 3407,
+      "sha256": "ea8a0b01e82dff3afd1d2e811ad25cfee08e589a0af4c9f9f13b4a0ffc9bbcd9"
+    },
+    {
+      "path": "docs/04_通信协议.md",
+      "bytes": 6237,
+      "sha256": "68c013258e65c0aa7e779e1177b13a904f139f6466e9abba446c1971a2916295"
+    },
+    {
+      "path": "docs/05_SDK接口.md",
+      "bytes": 5147,
+      "sha256": "a54619bcd285ccba902a0754b913ce8970365bc593abf17353b9182966984cc6"
+    },
+    {
+      "path": "docs/06_排障与验证.md",
+      "bytes": 2335,
+      "sha256": "b128e81ab3b6ff1b6bd2193adec7a9213611e3d72fa66b9ab661e615f4fb1321"
+    },
+    {
+      "path": "examples/offline_packets.py",
+      "bytes": 681,
+      "sha256": "5eabd5efed269d98b10c92ae3ef4a21b1274c8bf9f39a74cebc79a78a6830775"
+    },
+    {
+      "path": "examples/serial_monitor.py",
+      "bytes": 2249,
+      "sha256": "da1633a6783895a84a8fe4edfee3cfd7f4b66e7c85328445ca1eddf5bf1d97a9"
+    },
+    {
+      "path": "profiles/devices.json",
+      "bytes": 895,
+      "sha256": "cd9d9cbe8c9581b011278bfe72342e5a50fdcf4b95bd38c1a581a46b7619e194"
+    },
+    {
+      "path": "profiles/vt13-vectors.json",
+      "bytes": 1317,
+      "sha256": "89c2d1443be6542618fdbfb84f9db9a257c3db99bf5b71935905a0f1f67ae3dc"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 272,
+      "sha256": "9eda75b857d5ef0718ceaea99e41dbf4a5337e5daf18bf17be3de3b5b3ae64f8"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 137,
+      "sha256": "adf4706ee3609e024d23c9a5c21f6ebca2ca63e75ff78eb185f1d290632285dc"
+    },
+    {
+      "path": "samples/vt12-startup.udpbin",
+      "bytes": 3922308,
+      "sha256": "d59f04f2d6985b1ee3db1399ed58e7c52d9161805210d13a121aafb24aabef7e"
+    },
+    {
+      "path": "samples/vt13-video.h265",
+      "bytes": 1310697,
+      "sha256": "b108641470d7c5992da816b8e4c92551f0487a8a6e1f1070e0723649e49d64b7"
+    },
+    {
+      "path": "tests/test_sdk.py",
+      "bytes": 4727,
+      "sha256": "3c32a45d32b100f8ab5947172c0535c231e98e4996d9c55393fb6c81ddceac95"
+    },
+    {
+      "path": "tools/capture_vt13.py",
+      "bytes": 5078,
+      "sha256": "342c60bce66e2e20865b3f92dd3d9c0453be877682a5ba828344c4ccefb8f27d"
+    },
+    {
+      "path": "tools/decode_h264_sample.py",
+      "bytes": 3661,
+      "sha256": "1134bd64278fe3d059918fd08ee884dc659b7bfa81cf49c79ed2fd697be993fb"
+    },
+    {
+      "path": "tools/decode_hevc_sample.py",
+      "bytes": 1615,
+      "sha256": "6a1a3fcda0c50c23382ed4611cd0c6fa663e4a9852758569069f133332cbb70e"
+    },
+    {
+      "path": "tools/macos_preview.py",
+      "bytes": 12942,
+      "sha256": "f25967647a9d970de4561781c533ab5f1e7c518ca06c0aaa4955d0a51c5dd5c7"
+    },
+    {
+      "path": "tools/macos_probe.py",
+      "bytes": 17375,
+      "sha256": "ce3b1bd2fbde227a166b92e1f3766061a32b75a637d91dde9836f0730798d9a8"
+    },
+    {
+      "path": "tools/validate_offline.py",
+      "bytes": 4516,
+      "sha256": "62d717a5e71414b44ca4a6c66bb9fde1f06b61759638c880a68b2e0888ae2165"
+    },
+    {
+      "path": "tools/verify_integrity.py",
+      "bytes": 1461,
+      "sha256": "c3edfd65a8b2db4bd59e4690d9f8453107a2ce4f6b957a3deaddbc9020e8aa2c"
+    },
+    {
+      "path": "tools/vt12_macos_rndis.py",
+      "bytes": 16220,
+      "sha256": "a581597691bfa22dbb8d0a9b8903be7bd485418ca74e681af4b50013ed17a613"
+    },
+    {
+      "path": "tools/vt12_video.py",
+      "bytes": 11159,
+      "sha256": "f713f2a795008da4e7f17f2aff794d6c108013001db73d0b1089c1bf4d849372"
+    },
+    {
+      "path": "validation/release/environment.json",
+      "bytes": 261,
+      "sha256": "c8d8af208cbffd7637168f32329841445b1461cad4626460bd975d7fa44b7bf7"
+    },
+    {
+      "path": "validation/release/example.log",
+      "bytes": 700,
+      "sha256": "e31a73807bd6b18f3d909fdfdbe0dcd4b606ff08a3578d6b6b524e1267b49bf4"
+    },
+    {
+      "path": "validation/release/frames-vt12.log",
+      "bytes": 810,
+      "sha256": "d792329743ce66b17cf2c5eba1fbdb888675a5503d816c4de97925945cd4fce0"
+    },
+    {
+      "path": "validation/release/frames-vt13.log",
+      "bytes": 802,
+      "sha256": "ef7d09201b468debdfb8e5da034d32f0ef1b6ccca35f0cc26112be979e897987"
+    },
+    {
+      "path": "validation/release/h264.decode.json",
+      "bytes": 909,
+      "sha256": "55d5422a4922c10c3e7b4896e58597cc8786b5d513b966cf58eddf6ae833bfda"
+    },
+    {
+      "path": "validation/release/h264.h264",
+      "bytes": 3914578,
+      "sha256": "e39c9d813d6c0b58e5cf0ccfee2a543372a38f03a3029c344cc247afdd17ee9c"
+    },
+    {
+      "path": "validation/release/h264.last.png",
+      "bytes": 357499,
+      "sha256": "ceab82d7c24041287e293d2d11fdc9793bcd4ac1a88db70050d128fcc488ea7b"
+    },
+    {
+      "path": "validation/release/h264.log",
+      "bytes": 909,
+      "sha256": "55d5422a4922c10c3e7b4896e58597cc8786b5d513b966cf58eddf6ae833bfda"
+    },
+    {
+      "path": "validation/release/h264.png",
+      "bytes": 401755,
+      "sha256": "1fc872acacc75852795cd97b2021c42ff538552c1b0b22a04993c99a3f4a44e2"
+    },
+    {
+      "path": "validation/release/help-capture_vt13.log",
+      "bytes": 762,
+      "sha256": "5e3830e0a6511af5db55c43c938a31beb346408b9678afbc86530319325cbd2a"
+    },
+    {
+      "path": "validation/release/help-macos_preview.log",
+      "bytes": 633,
+      "sha256": "ffb6b7e5908550bfb4dc33c359911bd351018e2d130cc893ac21d010009a4b2f"
+    },
+    {
+      "path": "validation/release/help-macos_probe.log",
+      "bytes": 453,
+      "sha256": "4536041581070224f8158159d2b88f50f197518902b27f5774fddec8ac72819e"
+    },
+    {
+      "path": "validation/release/help-serial_monitor.log",
+      "bytes": 492,
+      "sha256": "122f69a01b80dc2beb8200cadf43f626b0766ff6b07591dd91f162b0c874abaa"
+    },
+    {
+      "path": "validation/release/help-vt12_macos_rndis.log",
+      "bytes": 657,
+      "sha256": "64c5f7c0f9f13fb021ccc8fddaf4f22d903aa4bd9f24892ecbe657b07fa5c43a"
+    },
+    {
+      "path": "validation/release/help-vt12_video.log",
+      "bytes": 496,
+      "sha256": "5b9f99665a8a7b8e0226c8dc94d467d4feed8bac54debdf212233356651c3b4e"
+    },
+    {
+      "path": "validation/release/hevc.log",
+      "bytes": 212,
+      "sha256": "52e3854fe8554beb43593afb445f950719d6a580e5a1afbd7168aa3bafc4a8e5"
+    },
+    {
+      "path": "validation/release/hevc.png",
+      "bytes": 2436194,
+      "sha256": "adaaebd7254b6977e2b058fdb2b368d6232c9605f53064f30488d6eb2ca5f2dd"
+    },
+    {
+      "path": "validation/release/package-check.json",
+      "bytes": 1220,
+      "sha256": "a8f59d048730c63f1fd9be5f239502a7e5af4f464b29f9d4cae4fc03d8d1dbd8"
+    },
+    {
+      "path": "validation/release/report.json",
+      "bytes": 2946,
+      "sha256": "d4d9e47f2ca07c8f84a0f90411ee5427d598b3b0da225c3f8f40ea3624a10534"
+    },
+    {
+      "path": "validation/release/sdk.log",
+      "bytes": 1289,
+      "sha256": "b0eb165608c6e803b6172ac1c3df5ac1aba0be24ad18767ea0f5aca81f187cbd"
+    },
+    {
+      "path": "vtlink/__init__.py",
+      "bytes": 317,
+      "sha256": "0c3d6dd1f3fc473a578010396605af7445195efadc399e2bcb492b81fe243090"
+    },
+    {
+      "path": "vtlink/__main__.py",
+      "bytes": 2694,
+      "sha256": "f31acb8d335ea41259e7a59d30ccec257e11f0d69a5385610d1c373dd188cc26"
+    },
+    {
+      "path": "vtlink/business.py",
+      "bytes": 5672,
+      "sha256": "c1e67c2629593da227985a0864829879eaa76b0f7a2a2431686e2793595fa256"
+    },
+    {
+      "path": "vtlink/hevc.py",
+      "bytes": 3496,
+      "sha256": "d2bcd61ab868c8504554e5a3ea7fe05fb1aeab1e9e3c15a7c68a1c62c2b05d76"
+    },
+    {
+      "path": "vtlink/protocol.py",
+      "bytes": 2774,
+      "sha256": "c2a50a7e7265ced54c20d01d951a0eb296a13504362bab438ec9e13c14f77ff8"
+    },
+    {
+      "path": "vtlink/vt12_commands.py",
+      "bytes": 1021,
+      "sha256": "4a3233aae75ea2ee7f4fc408be48b28247d6d36b0d0a42b63f163330b3f524e5"
+    },
+    {
+      "path": "vtlink/wire.py",
+      "bytes": 5115,
+      "sha256": "978046132cd099b26291e7fc83c363ad91c5e45da6cb204a14390cc967ec6674"
+    }
+  ]
+}

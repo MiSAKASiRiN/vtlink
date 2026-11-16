@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "vt12": {
+    "vid": 11427,
+    "pid": 31,
+    "video": "H.264 Annex B over RNDIS/UDP",
+    "host": "192.168.42.105",
+    "peer": "192.168.42.2",
+    "udp_port": 8080,
+    "video_prefix_bytes": 8,
+    "cdc_control_interface": 4,
+    "cdc_data_interface": 5,
+    "baud": 961200,
+    "custom_command": 770,
+    "custom_payload_bytes": 30,
+    "sender": 138,
+    "keyframe_request_verified": false
+  },
+  "vt13": {
+    "vid": 11427,
+    "pid": 4128,
+    "video": "HEVC Annex B over bulk IN",
+    "video_interface": 0,
+    "video_endpoint": 129,
+    "cdc_control_interface": 2,
+    "cdc_data_interface": 3,
+    "baud": 961200,
+    "custom_command": 785,
+    "custom_payload_bytes": 30,
+    "sender": 170,
+    "keyframe_request_verified": true
+  },
+  "scope": "Observed sample hardware and local encoders; inspect target descriptors and firmware. Serial: 8N1, no flow control."
+}

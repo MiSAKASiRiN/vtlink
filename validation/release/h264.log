@@ -1,0 +1,40 @@
+{
+  "capture": "samples/vt12-startup.udpbin",
+  "header_bytes": 8,
+  "av_version": "19.0.2",
+  "show_all": false,
+  "decode_exceptions": 0,
+  "corrupt_frames": 0,
+  "datagrams": 297,
+  "payload_bytes": 3916954,
+  "annexb_at_payload_start": 297,
+  "decoded_frames": 297,
+  "key_frames": 1,
+  "dimensions": {
+    "1280x720": 297
+  },
+  "nal_types": {
+    "7": 25,
+    "8": 25,
+    "5": 5,
+    "1": 1480
+  },
+  "header_examples": [
+    "47 00 00 00 3f 3e 30 01",
+    "47 01 00 00 78 3e 30 01",
+    "47 02 00 00 bc 3e 30 01",
+    "47 03 00 00 00 3f 30 01",
+    "47 04 00 00 40 3f 30 01"
+  ],
+  "packet_size_range": [
+    99,
+    19742
+  ],
+  "capture_duration_seconds": 4.980717700000241,
+  "decode_elapsed_seconds": 1.1956264170003124,
+  "errors": [],
+  "ffmpeg_log_messages": 0,
+  "ffmpeg_first_messages": [],
+  "snapshot": "validation/release/h264.png",
+  "elementary_stream": "validation/release/h264.h264"
+}

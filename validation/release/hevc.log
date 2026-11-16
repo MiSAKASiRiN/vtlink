@@ -1,0 +1,11 @@
+{
+  "frames_returned": 60,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "synced": true,
+  "decode_faults": 0,
+  "warnings": 1,
+  "note": "Live framing keeps the final unfinished NAL/packet until further input."
+}

@@ -1,0 +1,13 @@
+usage: macos_preview.py [-h] [--rotation {0,180}] [--seconds SECONDS]
+                        [--fps FPS]
+
+Live C5 preview on macOS; only fixed keyframe request/cancel commands. Usage:
+./start_preview.command [--rotation 0|180] [--seconds 15] Q / Esc / closing
+the player window stops capture and releases the device.
+
+options:
+  -h, --help          show this help message and exit
+  --rotation {0,180}  Display rotation only; default 0; select 180 only for an
+                      inverted camera
+  --seconds SECONDS   0 runs until the window is closed
+  --fps FPS           Nominal playback rate for the untimestamped HEVC stream

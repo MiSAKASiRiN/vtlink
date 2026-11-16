@@ -1,0 +1,5 @@
+# Optional hardware/video tools; the protocol SDK needs only the standard library.
+pyserial==3.5
+pyusb>=1.2,<2
+av>=16,<20
+Pillow>=11,<13

@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-17",
+  "hardware_access": false,
+  "installed_sdk_matches_source": true,
+  "installed_stdlib_only_check": true,
+  "installed_sdk_tests": 12,
+  "current_api_names_checked": true,
+  "optional_dependencies_consistent": true,
+  "relocated_without_installed_sdk": true,
+  "relocated_offline_validation": true,
+  "relocated_entrypoints": [
+    {
+      "file": "tools/capture_vt13.py",
+      "passed": true
+    },
+    {
+      "file": "tools/decode_h264_sample.py",
+      "passed": true
+    },
+    {
+      "file": "tools/decode_hevc_sample.py",
+      "passed": true
+    },
+    {
+      "file": "tools/macos_preview.py",
+      "passed": true
+    },
+    {
+      "file": "tools/macos_probe.py",
+      "passed": true
+    },
+    {
+      "file": "tools/vt12_macos_rndis.py",
+      "passed": true
+    },
+    {
+      "file": "tools/vt12_video.py",
+      "passed": true
+    },
+    {
+      "file": "examples/offline_packets.py",
+      "passed": true
+    },
+    {
+      "file": "examples/serial_monitor.py",
+      "passed": true
+    }
+  ],
+  "python_syntax_files": 19,
+  "documentation_python_syntax": true,
+  "passed": true,
+  "naming_and_external_path_scan": true,
+  "python_310_syntax": true,
+  "symlink_count": 0
+}
